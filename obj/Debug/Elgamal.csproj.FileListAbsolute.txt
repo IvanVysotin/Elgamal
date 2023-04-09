@@ -1,0 +1,27 @@
+C:\Users\mrzom\source\repos\Elgamal\bin\Debug\Elgamal.exe.config
+C:\Users\mrzom\source\repos\Elgamal\bin\Debug\Elgamal.exe
+C:\Users\mrzom\source\repos\Elgamal\bin\Debug\Elgamal.pdb
+C:\Users\mrzom\source\repos\Elgamal\obj\Debug\Elgamal.csproj.AssemblyReference.cache
+C:\Users\mrzom\source\repos\Elgamal\obj\Debug\Elgamal.csproj.SuggestedBindingRedirects.cache
+C:\Users\mrzom\source\repos\Elgamal\obj\Debug\Elgamal.Properties.Resources.resources
+C:\Users\mrzom\source\repos\Elgamal\obj\Debug\Elgamal.csproj.GenerateResource.cache
+C:\Users\mrzom\source\repos\Elgamal\obj\Debug\Elgamal.csproj.CoreCompileInputs.cache
+C:\Users\mrzom\source\repos\Elgamal\obj\Debug\Elgamal.exe
+C:\Users\mrzom\source\repos\Elgamal\obj\Debug\Elgamal.pdb
+C:\Users\mrzom\source\repos\Elgamal\obj\Debug\Elgamal.Forms.InfoForm.resources
+C:\Users\mrzom\source\repos\Elgamal\obj\Debug\Elgamal.Forms.MainForm.resources
+C:\Users\mrzom\source\repos\Elgamal\obj\Debug\Elgamal.Forms.AboutProgramForm.resources
+C:\Users\mrzom\source\repos\Elgamal\obj\Debug\Elgamal.Forms.AboutAuthorForm.resources
+G:\YSTU\5 семестр\КМЗИ\LR5\Elgamal\bin\Debug\Elgamal.exe.config
+G:\YSTU\5 семестр\КМЗИ\LR5\Elgamal\bin\Debug\Elgamal.exe
+G:\YSTU\5 семестр\КМЗИ\LR5\Elgamal\bin\Debug\Elgamal.pdb
+G:\YSTU\5 семестр\КМЗИ\LR5\Elgamal\obj\Debug\Elgamal.csprojAssemblyReference.cache
+G:\YSTU\5 семестр\КМЗИ\LR5\Elgamal\obj\Debug\Elgamal.Forms.AboutAuthorForm.resources
+G:\YSTU\5 семестр\КМЗИ\LR5\Elgamal\obj\Debug\Elgamal.Forms.AboutProgramForm.resources
+G:\YSTU\5 семестр\КМЗИ\LR5\Elgamal\obj\Debug\Elgamal.Forms.InfoForm.resources
+G:\YSTU\5 семестр\КМЗИ\LR5\Elgamal\obj\Debug\Elgamal.Forms.MainForm.resources
+G:\YSTU\5 семестр\КМЗИ\LR5\Elgamal\obj\Debug\Elgamal.Properties.Resources.resources
+G:\YSTU\5 семестр\КМЗИ\LR5\Elgamal\obj\Debug\Elgamal.csproj.GenerateResource.cache
+G:\YSTU\5 семестр\КМЗИ\LR5\Elgamal\obj\Debug\Elgamal.csproj.CoreCompileInputs.cache
+G:\YSTU\5 семестр\КМЗИ\LR5\Elgamal\obj\Debug\Elgamal.exe
+G:\YSTU\5 семестр\КМЗИ\LR5\Elgamal\obj\Debug\Elgamal.pdb
