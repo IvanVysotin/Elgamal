@@ -23,14 +23,11 @@ namespace Elgamal.Forms
         private long[] rands;
         private long[] a;
         private long[] b;
-        private int[] test;
-        private string text;
         private long[] long_text;
         private char[] char_text;
 
         private void MakeRand(long size)
         {
-            test = new int[3] {2, 3, 4, 5, 6};
             Random random = new Random();
             rands = new long[size];
             for (long i = 0; i < size; i++)
@@ -176,6 +173,38 @@ namespace Elgamal.Forms
             InitializeComponent();
         }
 
+        private void btn_Encrypt_Click(object sender, EventArgs e)
+        {
+            int.TryParse(tb_p.Text, out int p);
+            int.TryParse(tb_x.Text, out int x);
+            if (IsSimple(p) || x > (p - 1))
+            {
+                tb_Output.Text = null;
+                tb_Output.Text = Encryption(tb_Input.Text, p, x);
+                tb_Input.Text = null;
+            }
+            else
+            {
+                MessageBox.Show("Введите для 'p' простое число", "Некорректный ввод", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+        private void btn_Decrypt_Click(object sender, EventArgs e)
+        {
+            int.TryParse(tb_p.Text, out int p);
+            int.TryParse(tb_x.Text, out int x);
+            if (IsSimple(p) || x > (p - 1))
+            {
+                tb_Input.Text = null;
+                tb_Input.Text = Decryption(tb_Output.Text, p, x);
+                tb_Output.Text = null;
+            }
+            else
+            {
+                MessageBox.Show("Введите для 'p' простое число", "Некорректный ввод", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
         private void справкаToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             InfoForm infoForm = new InfoForm();
@@ -195,40 +224,6 @@ namespace Elgamal.Forms
             AboutAuthorForm aboutAuthorForm = new AboutAuthorForm();
             aboutAuthorForm.ShowDialog();
             aboutAuthorForm.Dispose();
-        }
-
-        private void btn_Encrypt_Click(object sender, EventArgs e)
-        {
-            int.TryParse(tb_p.Text, out int p);
-            int.TryParse(tb_x.Text, out int x);
-            if (IsSimple(p) || x > (p - 1))
-            {
-                tb_Output.Text = null;
-                tb_Output.Text = Encryption(tb_Input.Text, p, x);
-                tb_Input.Text = null;
-            }
-            else
-            {
-                MessageBox.Show("Введите для 'p' простое число", "Некорректный ввод", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            
-        }
-
-        private void btn_Decrypt_Click(object sender, EventArgs e)
-        {
-            int.TryParse(tb_p.Text, out int p);
-            int.TryParse(tb_x.Text, out int x);
-            if (IsSimple(p) || x > (p - 1))
-            {
-                tb_Input.Text = null;
-                tb_Input.Text = Decryption(tb_Output.Text, p, x);
-                tb_Output.Text = null;
-            }
-            else
-            {
-                MessageBox.Show("Введите для 'p' простое число", "Некорректный ввод", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            
         }
     }
 
