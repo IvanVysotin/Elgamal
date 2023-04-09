@@ -23,12 +23,14 @@ namespace Elgamal.Forms
         private long[] rands;
         private long[] a;
         private long[] b;
+        private int[] test;
         private string text;
         private long[] long_text;
         private char[] char_text;
 
         private void MakeRand(long size)
         {
+            test = new int[3] {2, 3, 4, 5, 6};
             Random random = new Random();
             rands = new long[size];
             for (long i = 0; i < size; i++)
@@ -155,7 +157,7 @@ namespace Elgamal.Forms
             long temp = g;
             long G = g;
             string fstring = Convert.ToString(f, 2);
-            for (int i = 1; i < fstring.Length; i++)
+            for (int i = 1; i < fstring.Length + 1; i++)
             {
                 if (fstring[i] == '1')
                 {
